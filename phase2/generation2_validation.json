@@ -1,0 +1,1609 @@
+{
+  "guard_reply": {
+    "move": [
+      21,
+      22
+    ],
+    "nonterminal_options": 32,
+    "avoid_forced_capture_in_five": 20,
+    "legal_answers": 63,
+    "escapes_within_three": 4,
+    "escapes": [
+      [
+        4,
+        5
+      ],
+      [
+        34,
+        32
+      ],
+      [
+        34,
+        31
+      ],
+      [
+        76,
+        77
+      ]
+    ]
+  },
+  "fixed": {
+    "parent": [
+      {
+        "bait": {
+          "move": [
+            49,
+            51
+          ],
+          "ok": true
+        },
+        "recognize": {
+          "move": [
+            41,
+            42
+          ],
+          "ok": true
+        },
+        "continue": {
+          "move": [
+            35,
+            34
+          ],
+          "ok": true
+        },
+        "defend": {
+          "move": [
+            39,
+            38
+          ],
+          "ok": true
+        },
+        "hard_reply": {
+          "move": [
+            34,
+            31
+          ],
+          "ok": true
+        }
+      },
+      {
+        "bait": {
+          "move": [
+            49,
+            51
+          ],
+          "ok": true
+        },
+        "recognize": {
+          "move": [
+            41,
+            42
+          ],
+          "ok": true
+        },
+        "continue": {
+          "move": [
+            35,
+            34
+          ],
+          "ok": true
+        },
+        "defend": {
+          "move": [
+            39,
+            38
+          ],
+          "ok": true
+        },
+        "hard_reply": {
+          "move": [
+            34,
+            31
+          ],
+          "ok": true
+        }
+      },
+      {
+        "bait": {
+          "move": [
+            49,
+            51
+          ],
+          "ok": true
+        },
+        "recognize": {
+          "move": [
+            41,
+            42
+          ],
+          "ok": true
+        },
+        "continue": {
+          "move": [
+            35,
+            34
+          ],
+          "ok": true
+        },
+        "defend": {
+          "move": [
+            39,
+            38
+          ],
+          "ok": true
+        },
+        "hard_reply": {
+          "move": [
+            34,
+            31
+          ],
+          "ok": true
+        }
+      }
+    ],
+    "candidate": [
+      {
+        "bait": {
+          "move": [
+            49,
+            51
+          ],
+          "ok": true
+        },
+        "recognize": {
+          "move": [
+            41,
+            42
+          ],
+          "ok": true
+        },
+        "continue": {
+          "move": [
+            35,
+            34
+          ],
+          "ok": true
+        },
+        "defend": {
+          "move": [
+            39,
+            38
+          ],
+          "ok": true
+        },
+        "hard_reply": {
+          "move": [
+            34,
+            31
+          ],
+          "ok": true
+        }
+      },
+      {
+        "bait": {
+          "move": [
+            49,
+            51
+          ],
+          "ok": true
+        },
+        "recognize": {
+          "move": [
+            41,
+            42
+          ],
+          "ok": true
+        },
+        "continue": {
+          "move": [
+            35,
+            34
+          ],
+          "ok": true
+        },
+        "defend": {
+          "move": [
+            39,
+            38
+          ],
+          "ok": true
+        },
+        "hard_reply": {
+          "move": [
+            34,
+            31
+          ],
+          "ok": true
+        }
+      },
+      {
+        "bait": {
+          "move": [
+            49,
+            51
+          ],
+          "ok": true
+        },
+        "recognize": {
+          "move": [
+            41,
+            42
+          ],
+          "ok": true
+        },
+        "continue": {
+          "move": [
+            35,
+            34
+          ],
+          "ok": true
+        },
+        "defend": {
+          "move": [
+            39,
+            38
+          ],
+          "ok": true
+        },
+        "hard_reply": {
+          "move": [
+            34,
+            31
+          ],
+          "ok": true
+        }
+      }
+    ],
+    "easyAI_2s": {
+      "bait": {
+        "move": [
+          49,
+          51
+        ],
+        "ok": true
+      },
+      "recognize": {
+        "move": [
+          41,
+          42
+        ],
+        "ok": true
+      },
+      "continue": {
+        "move": [
+          35,
+          34
+        ],
+        "ok": true
+      },
+      "defend": {
+        "move": [
+          4,
+          2
+        ],
+        "ok": false
+      },
+      "hard_reply": {
+        "move": [
+          34,
+          31
+        ],
+        "ok": true
+      }
+    }
+  },
+  "chains": {
+    "parent": [
+      {
+        "seed": 11,
+        "trap": {
+          "first": [
+            49,
+            51
+          ],
+          "follow": [
+            35,
+            34
+          ],
+          "inherited": 1150,
+          "both": true,
+          "follow_ok": true
+        },
+        "repair": {
+          "first": [
+            39,
+            38
+          ],
+          "follow": [
+            34,
+            31
+          ],
+          "inherited": 3350,
+          "both": true,
+          "follow_ok": true
+        }
+      },
+      {
+        "seed": 29,
+        "trap": {
+          "first": [
+            49,
+            51
+          ],
+          "follow": [
+            35,
+            34
+          ],
+          "inherited": 1225,
+          "both": true,
+          "follow_ok": true
+        },
+        "repair": {
+          "first": [
+            39,
+            38
+          ],
+          "follow": [
+            34,
+            31
+          ],
+          "inherited": 3436,
+          "both": true,
+          "follow_ok": true
+        }
+      },
+      {
+        "seed": 47,
+        "trap": {
+          "first": [
+            49,
+            51
+          ],
+          "follow": [
+            35,
+            34
+          ],
+          "inherited": 1163,
+          "both": true,
+          "follow_ok": true
+        },
+        "repair": {
+          "first": [
+            39,
+            38
+          ],
+          "follow": [
+            34,
+            31
+          ],
+          "inherited": 3425,
+          "both": true,
+          "follow_ok": true
+        }
+      }
+    ],
+    "candidate": [
+      {
+        "seed": 11,
+        "trap": {
+          "first": [
+            49,
+            51
+          ],
+          "follow": [
+            35,
+            34
+          ],
+          "inherited": 1207,
+          "both": true,
+          "follow_ok": true
+        },
+        "repair": {
+          "first": [
+            39,
+            38
+          ],
+          "follow": [
+            34,
+            31
+          ],
+          "inherited": 3208,
+          "both": true,
+          "follow_ok": true
+        }
+      },
+      {
+        "seed": 29,
+        "trap": {
+          "first": [
+            49,
+            51
+          ],
+          "follow": [
+            35,
+            34
+          ],
+          "inherited": 1210,
+          "both": true,
+          "follow_ok": true
+        },
+        "repair": {
+          "first": [
+            39,
+            38
+          ],
+          "follow": [
+            34,
+            31
+          ],
+          "inherited": 3190,
+          "both": true,
+          "follow_ok": true
+        }
+      },
+      {
+        "seed": 47,
+        "trap": {
+          "first": [
+            49,
+            51
+          ],
+          "follow": [
+            35,
+            34
+          ],
+          "inherited": 1205,
+          "both": true,
+          "follow_ok": true
+        },
+        "repair": {
+          "first": [
+            39,
+            38
+          ],
+          "follow": [
+            34,
+            31
+          ],
+          "inherited": 3216,
+          "both": true,
+          "follow_ok": true
+        }
+      }
+    ]
+  },
+  "blind": [
+    {
+      "seed": 5048,
+      "ply": 43,
+      "side": "A",
+      "solutions": [
+        [
+          30,
+          48
+        ],
+        [
+          37,
+          46
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          49,
+          48
+        ]
+      ],
+      "parent": {
+        "move": [
+          49,
+          48
+        ],
+        "ok": true,
+        "winning_finishes": 19,
+        "replies": 19
+      },
+      "candidate": {
+        "move": [
+          49,
+          48
+        ],
+        "ok": true,
+        "winning_finishes": 19,
+        "replies": 19
+      }
+    },
+    {
+      "seed": 5050,
+      "ply": 36,
+      "side": "D",
+      "solutions": [
+        [
+          23,
+          25
+        ]
+      ],
+      "parent": {
+        "move": [
+          23,
+          25
+        ],
+        "ok": true,
+        "winning_finishes": 89,
+        "replies": 89
+      },
+      "candidate": {
+        "move": [
+          23,
+          25
+        ],
+        "ok": true,
+        "winning_finishes": 89,
+        "replies": 89
+      }
+    },
+    {
+      "seed": 5051,
+      "ply": 20,
+      "side": "D",
+      "solutions": [
+        [
+          29,
+          27
+        ]
+      ],
+      "parent": {
+        "move": [
+          29,
+          27
+        ],
+        "ok": true,
+        "winning_finishes": 95,
+        "replies": 95
+      },
+      "candidate": {
+        "move": [
+          29,
+          27
+        ],
+        "ok": true,
+        "winning_finishes": 95,
+        "replies": 95
+      }
+    },
+    {
+      "seed": 5052,
+      "ply": 29,
+      "side": "A",
+      "solutions": [
+        [
+          23,
+          50
+        ]
+      ],
+      "parent": {
+        "move": [
+          23,
+          50
+        ],
+        "ok": true,
+        "winning_finishes": 51,
+        "replies": 51
+      },
+      "candidate": {
+        "move": [
+          23,
+          50
+        ],
+        "ok": true,
+        "winning_finishes": 51,
+        "replies": 51
+      }
+    },
+    {
+      "seed": 5053,
+      "ply": 22,
+      "side": "D",
+      "solutions": [
+        [
+          32,
+          34
+        ]
+      ],
+      "parent": {
+        "move": [
+          32,
+          34
+        ],
+        "ok": true,
+        "winning_finishes": 71,
+        "replies": 71
+      },
+      "candidate": {
+        "move": [
+          32,
+          34
+        ],
+        "ok": true,
+        "winning_finishes": 71,
+        "replies": 71
+      }
+    },
+    {
+      "seed": 5054,
+      "ply": 22,
+      "side": "D",
+      "solutions": [
+        [
+          50,
+          52
+        ]
+      ],
+      "parent": {
+        "move": [
+          50,
+          52
+        ],
+        "ok": true,
+        "winning_finishes": 69,
+        "replies": 69
+      },
+      "candidate": {
+        "move": [
+          50,
+          52
+        ],
+        "ok": true,
+        "winning_finishes": 69,
+        "replies": 69
+      }
+    },
+    {
+      "seed": 5055,
+      "ply": 41,
+      "side": "A",
+      "solutions": [
+        [
+          49,
+          50
+        ],
+        [
+          52,
+          50
+        ],
+        [
+          66,
+          67
+        ],
+        [
+          69,
+          67
+        ],
+        [
+          76,
+          67
+        ]
+      ],
+      "parent": {
+        "move": [
+          49,
+          50
+        ],
+        "ok": true,
+        "winning_finishes": 23,
+        "replies": 23
+      },
+      "candidate": {
+        "move": [
+          49,
+          50
+        ],
+        "ok": true,
+        "winning_finishes": 23,
+        "replies": 23
+      }
+    },
+    {
+      "seed": 5056,
+      "ply": 38,
+      "side": "D",
+      "solutions": [
+        [
+          58,
+          60
+        ]
+      ],
+      "parent": {
+        "move": [
+          58,
+          60
+        ],
+        "ok": true,
+        "winning_finishes": 90,
+        "replies": 90
+      },
+      "candidate": {
+        "move": [
+          58,
+          60
+        ],
+        "ok": true,
+        "winning_finishes": 90,
+        "replies": 90
+      }
+    },
+    {
+      "seed": 5057,
+      "ply": 28,
+      "side": "D",
+      "solutions": [
+        [
+          49,
+          13
+        ],
+        [
+          49,
+          22
+        ]
+      ],
+      "parent": {
+        "move": [
+          49,
+          22
+        ],
+        "ok": true,
+        "winning_finishes": 66,
+        "replies": 66
+      },
+      "candidate": {
+        "move": [
+          49,
+          22
+        ],
+        "ok": true,
+        "winning_finishes": 66,
+        "replies": 66
+      }
+    },
+    {
+      "seed": 5058,
+      "ply": 33,
+      "side": "A",
+      "solutions": [
+        [
+          46,
+          47
+        ],
+        [
+          51,
+          47
+        ],
+        [
+          58,
+          57
+        ],
+        [
+          74,
+          65
+        ]
+      ],
+      "parent": {
+        "move": [
+          74,
+          65
+        ],
+        "ok": true,
+        "winning_finishes": 14,
+        "replies": 14
+      },
+      "candidate": {
+        "move": [
+          74,
+          65
+        ],
+        "ok": true,
+        "winning_finishes": 14,
+        "replies": 14
+      }
+    },
+    {
+      "seed": 5059,
+      "ply": 26,
+      "side": "D",
+      "solutions": [
+        [
+          50,
+          52
+        ]
+      ],
+      "parent": {
+        "move": [
+          50,
+          52
+        ],
+        "ok": true,
+        "winning_finishes": 84,
+        "replies": 84
+      },
+      "candidate": {
+        "move": [
+          50,
+          52
+        ],
+        "ok": true,
+        "winning_finishes": 84,
+        "replies": 84
+      }
+    },
+    {
+      "seed": 5062,
+      "ply": 27,
+      "side": "A",
+      "solutions": [
+        [
+          52,
+          48
+        ]
+      ],
+      "parent": {
+        "move": [
+          52,
+          48
+        ],
+        "ok": true,
+        "winning_finishes": 30,
+        "replies": 30
+      },
+      "candidate": {
+        "move": [
+          52,
+          48
+        ],
+        "ok": true,
+        "winning_finishes": 30,
+        "replies": 30
+      }
+    }
+  ],
+  "match_clock_replay": {
+    "candidate": {
+      "bait": [
+        {
+          "key": "bait",
+          "move": [
+            49,
+            51
+          ],
+          "ok": true,
+          "remaining": 20.902998999999994,
+          "seconds": 0.24003759999959584,
+          "depth": 6,
+          "visits": 1478
+        },
+        {
+          "key": "continue",
+          "move": [
+            35,
+            34
+          ],
+          "ok": true,
+          "remaining": 20.6629614000004,
+          "seconds": 0.00023849999979574932,
+          "depth": 0,
+          "visits": 1207
+        }
+      ],
+      "defend": [
+        {
+          "key": "defend",
+          "move": [
+            39,
+            38
+          ],
+          "ok": true,
+          "remaining": 12.77990100000001,
+          "seconds": 2.3450566999999864,
+          "depth": 11,
+          "visits": 14948
+        },
+        {
+          "key": "hard_reply",
+          "move": [
+            34,
+            31
+          ],
+          "ok": true,
+          "remaining": 10.434844300000023,
+          "seconds": 1.2876991000002818,
+          "depth": 11,
+          "visits": 13116
+        }
+      ]
+    },
+    "easyAI": {
+      "bait": [
+        {
+          "key": "bait",
+          "move": [
+            49,
+            51
+          ],
+          "ok": true,
+          "remaining": 20.902998999999994,
+          "seconds": 2.546581600000536,
+          "depth": 4,
+          "visits": null
+        },
+        {
+          "key": "continue",
+          "move": [
+            35,
+            34
+          ],
+          "ok": true,
+          "remaining": 18.356417399999458,
+          "seconds": 0.045677600000090024,
+          "depth": 3,
+          "visits": null
+        }
+      ],
+      "defend": [
+        {
+          "key": "defend",
+          "move": [
+            4,
+            2
+          ],
+          "ok": false,
+          "remaining": 12.77990100000001,
+          "seconds": 1.6095830000003843,
+          "depth": 3,
+          "visits": null
+        },
+        {
+          "key": "hard_reply",
+          "move": [
+            34,
+            31
+          ],
+          "ok": true,
+          "remaining": 11.170317999999625,
+          "seconds": 1.5043506000001798,
+          "depth": 4,
+          "visits": null
+        }
+      ]
+    }
+  },
+  "blind_defence": [
+    {
+      "seed": 5048,
+      "ply": 37,
+      "side": "A",
+      "legal": 90,
+      "escapes": [
+        [
+          4,
+          22
+        ],
+        [
+          30,
+          29
+        ],
+        [
+          35,
+          26
+        ],
+        [
+          36,
+          18
+        ],
+        [
+          37,
+          19
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          41,
+          23
+        ],
+        [
+          41,
+          38
+        ]
+      ],
+      "parent": {
+        "move": [
+          41,
+          38
+        ],
+        "ok": true
+      },
+      "candidate": {
+        "move": [
+          41,
+          38
+        ],
+        "ok": true
+      }
+    },
+    {
+      "seed": 5049,
+      "ply": 43,
+      "side": "A",
+      "legal": 85,
+      "escapes": [
+        [
+          38,
+          47
+        ]
+      ],
+      "parent": {
+        "move": [
+          38,
+          47
+        ],
+        "ok": true
+      },
+      "candidate": {
+        "move": [
+          38,
+          47
+        ],
+        "ok": true
+      }
+    },
+    {
+      "seed": 5050,
+      "ply": 29,
+      "side": "A",
+      "legal": 86,
+      "escapes": [
+        [
+          45,
+          51
+        ],
+        [
+          59,
+          60
+        ],
+        [
+          77,
+          78
+        ]
+      ],
+      "parent": {
+        "move": [
+          59,
+          60
+        ],
+        "ok": true
+      },
+      "candidate": {
+        "move": [
+          59,
+          60
+        ],
+        "ok": true
+      }
+    },
+    {
+      "seed": 5051,
+      "ply": 17,
+      "side": "A",
+      "legal": 96,
+      "escapes": [
+        [
+          57,
+          55
+        ],
+        [
+          67,
+          64
+        ],
+        [
+          76,
+          73
+        ]
+      ],
+      "parent": {
+        "move": [
+          67,
+          64
+        ],
+        "ok": true
+      },
+      "candidate": {
+        "move": [
+          67,
+          64
+        ],
+        "ok": true
+      }
+    },
+    {
+      "seed": 5052,
+      "ply": 26,
+      "side": "D",
+      "legal": 51,
+      "escapes": [
+        [
+          39,
+          41
+        ],
+        [
+          39,
+          43
+        ],
+        [
+          49,
+          48
+        ],
+        [
+          49,
+          47
+        ],
+        [
+          49,
+          46
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          51,
+          50
+        ],
+        [
+          60,
+          61
+        ]
+      ],
+      "parent": {
+        "move": [
+          49,
+          46
+        ],
+        "ok": true
+      },
+      "candidate": {
+        "move": [
+          49,
+          47
+        ],
+        "ok": true
+      }
+    },
+    {
+      "seed": 5053,
+      "ply": 19,
+      "side": "A",
+      "legal": 74,
+      "escapes": [
+        [
+          52,
+          50
+        ],
+        [
+          67,
+          68
+        ],
+        [
+          76,
+          77
+        ]
+      ],
+      "parent": {
+        "move": [
+          67,
+          68
+        ],
+        "ok": true
+      },
+      "candidate": {
+        "move": [
+          67,
+          68
+        ],
+        "ok": true
+      }
+    },
+    {
+      "seed": 5054,
+      "ply": 17,
+      "side": "A",
+      "legal": 87,
+      "escapes": [
+        [
+          29,
+          56
+        ],
+        [
+          44,
+          62
+        ],
+        [
+          45,
+          54
+        ],
+        [
+          52,
+          50
+        ],
+        [
+          52,
+          61
+        ],
+        [
+          76,
+          58
+        ]
+      ],
+      "parent": {
+        "move": [
+          52,
+          50
+        ],
+        "ok": true
+      },
+      "candidate": {
+        "move": [
+          52,
+          50
+        ],
+        "ok": true
+      }
+    },
+    {
+      "seed": 5055,
+      "ply": 39,
+      "side": "A",
+      "legal": 90,
+      "escapes": [
+        [
+          8,
+          2
+        ],
+        [
+          23,
+          20
+        ],
+        [
+          36,
+          38
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          45,
+          47
+        ],
+        [
+          45,
+          48
+        ],
+        [
+          45,
+          49
+        ],
+        [
+          57,
+          48
+        ],
+        [
+          57,
+          56
+        ],
+        [
+          64,
+          46
+        ],
+        [
+          64,
+          65
+        ],
+        [
+          66,
+          65
+        ],
+        [
+          76,
+          74
+        ]
+      ],
+      "parent": {
+        "move": [
+          45,
+          49
+        ],
+        "ok": true
+      },
+      "candidate": {
+        "move": [
+          45,
+          49
+        ],
+        "ok": true
+      }
+    },
+    {
+      "seed": 5056,
+      "ply": 34,
+      "side": "D",
+      "legal": 24,
+      "escapes": [
+        [
+          22,
+          31
+        ],
+        [
+          22,
+          49
+        ],
+        [
+          22,
+          58
+        ],
+        [
+          22,
+          67
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          32,
+          31
+        ]
+      ],
+      "parent": {
+        "move": [
+          30,
+          31
+        ],
+        "ok": true
+      },
+      "candidate": {
+        "move": [
+          30,
+          31
+        ],
+        "ok": true
+      }
+    },
+    {
+      "seed": 5057,
+      "ply": 24,
+      "side": "D",
+      "legal": 63,
+      "escapes": [
+        [
+          42,
+          51
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          59
+        ],
+        [
+          54,
+          58
+        ],
+        [
+          69,
+          51
+        ]
+      ],
+      "parent": {
+        "move": [
+          54,
+          58
+        ],
+        "ok": true
+      },
+      "candidate": {
+        "move": [
+          54,
+          58
+        ],
+        "ok": true
+      }
+    },
+    {
+      "seed": 5058,
+      "ply": 32,
+      "side": "D",
+      "legal": 26,
+      "escapes": [
+        [
+          66,
+          64
+        ]
+      ],
+      "parent": {
+        "move": [
+          30,
+          29
+        ],
+        "ok": false
+      },
+      "candidate": {
+        "move": [
+          66,
+          39
+        ],
+        "ok": false
+      }
+    },
+    {
+      "seed": 5059,
+      "ply": 24,
+      "side": "D",
+      "legal": 38,
+      "escapes": [
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          51,
+          42
+        ],
+        [
+          58,
+          59
+        ]
+      ],
+      "parent": {
+        "move": [
+          51,
+          42
+        ],
+        "ok": true
+      },
+      "candidate": {
+        "move": [
+          51,
+          42
+        ],
+        "ok": true
+      }
+    },
+    {
+      "seed": 5060,
+      "ply": 51,
+      "side": "A",
+      "legal": 81,
+      "escapes": [
+        [
+          7,
+          25
+        ],
+        [
+          33,
+          24
+        ]
+      ],
+      "parent": {
+        "move": [
+          33,
+          24
+        ],
+        "ok": true
+      },
+      "candidate": {
+        "move": [
+          33,
+          24
+        ],
+        "ok": true
+      }
+    },
+    {
+      "seed": 5061,
+      "ply": 40,
+      "side": "D",
+      "legal": 36,
+      "escapes": [
+        [
+          52,
+          50
+        ],
+        [
+          56,
+          58
+        ]
+      ],
+      "parent": {
+        "move": [
+          52,
+          50
+        ],
+        "ok": true
+      },
+      "candidate": {
+        "move": [
+          52,
+          50
+        ],
+        "ok": true
+      }
+    },
+    {
+      "seed": 5062,
+      "ply": 22,
+      "side": "D",
+      "legal": 31,
+      "escapes": [
+        [
+          31,
+          67
+        ]
+      ],
+      "parent": {
+        "move": [
+          31,
+          58
+        ],
+        "ok": false
+      },
+      "candidate": {
+        "move": [
+          22,
+          21
+        ],
+        "ok": false
+      }
+    },
+    {
+      "seed": 5063,
+      "ply": 42,
+      "side": "D",
+      "legal": 14,
+      "escapes": [
+        [
+          38,
+          29
+        ],
+        [
+          38,
+          39
+        ],
+        [
+          38,
+          41
+        ]
+      ],
+      "parent": {
+        "move": [
+          38,
+          29
+        ],
+        "ok": true
+      },
+      "candidate": {
+        "move": [
+          38,
+          29
+        ],
+        "ok": true
+      }
+    }
+  ]
+}

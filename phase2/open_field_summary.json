@@ -1,0 +1,337 @@
+{
+  "rules": "Attack from official initial position, 60s per side, 2/1/0",
+  "seeds": [
+    9101,
+    9102,
+    9103,
+    9104
+  ],
+  "workers": 8,
+  "opponents": {
+    "tLut-search": {
+      "frozen": {
+        "WDL": [
+          3,
+          1,
+          0
+        ],
+        "points": 7,
+        "defender_win_in_one": 0,
+        "missed_by_defender": 0,
+        "median_plies": 70.0
+      },
+      "trained": {
+        "WDL": [
+          4,
+          0,
+          0
+        ],
+        "points": 8,
+        "defender_win_in_one": 0,
+        "missed_by_defender": 0,
+        "median_plies": 47.0
+      },
+      "paired_trained_better_equal_worse": [
+        1,
+        3,
+        0
+      ]
+    },
+    "UCT": {
+      "frozen": {
+        "WDL": [
+          4,
+          0,
+          0
+        ],
+        "points": 8,
+        "defender_win_in_one": 0,
+        "missed_by_defender": 0,
+        "median_plies": 28.0
+      },
+      "trained": {
+        "WDL": [
+          4,
+          0,
+          0
+        ],
+        "points": 8,
+        "defender_win_in_one": 0,
+        "missed_by_defender": 0,
+        "median_plies": 31.0
+      },
+      "paired_trained_better_equal_worse": [
+        0,
+        4,
+        0
+      ]
+    },
+    "tLut-greedy": {
+      "frozen": {
+        "WDL": [
+          3,
+          0,
+          1
+        ],
+        "points": 6,
+        "defender_win_in_one": 1,
+        "missed_by_defender": 0,
+        "median_plies": 26.0
+      },
+      "trained": {
+        "WDL": [
+          4,
+          0,
+          0
+        ],
+        "points": 8,
+        "defender_win_in_one": 0,
+        "missed_by_defender": 0,
+        "median_plies": 19.0
+      },
+      "paired_trained_better_equal_worse": [
+        1,
+        3,
+        0
+      ]
+    },
+    "easyAI": {
+      "frozen": {
+        "WDL": [
+          3,
+          0,
+          1
+        ],
+        "points": 6,
+        "defender_win_in_one": 1,
+        "missed_by_defender": 0,
+        "median_plies": 27.0
+      },
+      "trained": {
+        "WDL": [
+          2,
+          1,
+          1
+        ],
+        "points": 5,
+        "defender_win_in_one": 1,
+        "missed_by_defender": 0,
+        "median_plies": 24.0
+      },
+      "paired_trained_better_equal_worse": [
+        1,
+        1,
+        2
+      ]
+    },
+    "PUCT": {
+      "frozen": {
+        "WDL": [
+          1,
+          0,
+          3
+        ],
+        "points": 2,
+        "defender_win_in_one": 3,
+        "missed_by_defender": 0,
+        "median_plies": 59.0
+      },
+      "trained": {
+        "WDL": [
+          0,
+          0,
+          4
+        ],
+        "points": 0,
+        "defender_win_in_one": 4,
+        "missed_by_defender": 0,
+        "median_plies": 35.0
+      },
+      "paired_trained_better_equal_worse": [
+        0,
+        3,
+        1
+      ]
+    }
+  },
+  "technical_ends": [],
+  "loss_checks": [
+    {
+      "opponent": "tLut-greedy",
+      "version": "frozen",
+      "seed": 9101,
+      "miss": {
+        "ply": 51,
+        "depth": 3,
+        "played": [
+          33,
+          60
+        ],
+        "alternative": [
+          33,
+          69
+        ],
+        "cold_1600": {
+          "frozen": {
+            "move": [
+              33,
+              60
+            ],
+            "forced_defender_win_depth": 3
+          },
+          "trained": {
+            "move": [
+              33,
+              60
+            ],
+            "forced_defender_win_depth": 3
+          }
+        }
+      }
+    },
+    {
+      "opponent": "easyAI",
+      "version": "frozen",
+      "seed": 9101,
+      "miss": null
+    },
+    {
+      "opponent": "easyAI",
+      "version": "trained",
+      "seed": 9104,
+      "miss": null
+    },
+    {
+      "opponent": "PUCT",
+      "version": "frozen",
+      "seed": 9101,
+      "miss": null
+    },
+    {
+      "opponent": "PUCT",
+      "version": "frozen",
+      "seed": 9103,
+      "miss": null
+    },
+    {
+      "opponent": "PUCT",
+      "version": "frozen",
+      "seed": 9104,
+      "miss": {
+        "ply": 73,
+        "depth": 3,
+        "played": [
+          51,
+          50
+        ],
+        "alternative": [
+          13,
+          4
+        ],
+        "cold_1600": {
+          "frozen": {
+            "move": [
+              51,
+              50
+            ],
+            "forced_defender_win_depth": 3
+          },
+          "trained": {
+            "move": [
+              51,
+              50
+            ],
+            "forced_defender_win_depth": 3
+          }
+        }
+      }
+    },
+    {
+      "opponent": "PUCT",
+      "version": "trained",
+      "seed": 9101,
+      "miss": null
+    },
+    {
+      "opponent": "PUCT",
+      "version": "trained",
+      "seed": 9102,
+      "miss": {
+        "ply": 55,
+        "depth": 3,
+        "played": [
+          27,
+          18
+        ],
+        "alternative": [
+          2,
+          5
+        ],
+        "cold_1600": {
+          "frozen": {
+            "move": [
+              66,
+              68
+            ],
+            "forced_defender_win_depth": 0
+          },
+          "trained": {
+            "move": [
+              29,
+              38
+            ],
+            "forced_defender_win_depth": 3
+          }
+        }
+      }
+    },
+    {
+      "opponent": "PUCT",
+      "version": "trained",
+      "seed": 9103,
+      "miss": {
+        "ply": 23,
+        "depth": 3,
+        "played": [
+          36,
+          72
+        ],
+        "alternative": [
+          44,
+          43
+        ],
+        "cold_1600": {
+          "frozen": {
+            "move": [
+              44,
+              43
+            ],
+            "forced_defender_win_depth": 0
+          },
+          "trained": {
+            "move": [
+              44,
+              43
+            ],
+            "forced_defender_win_depth": 0
+          }
+        }
+      }
+    },
+    {
+      "opponent": "PUCT",
+      "version": "trained",
+      "seed": 9104,
+      "miss": null
+    }
+  ],
+  "tLut_source": "https://github.com/MatteoFasulo/Tablut/blob/a56a1c2693187402df4b3378e2bfb7cbab1cfda3/whiteheuristics.py",
+  "UCT_source": "https://github.com/pbsinclair42/MCTS/blob/f4b6226ce06840e51b66bdca4bedbe2c4c143012/mcts.py",
+  "tLut_adapter": "Original white_fitness and weights, official course move generator and adjudication. Shared evaluation for one-ply greedy and easyAI iterative negamax.",
+  "UCT_adapter": "Original adversarial UCT, default random playouts to terminal, course state and whole-game time manager.",
+  "cold_1600": "Fresh tree, at most 1600 visits, full review. Depth zero means no proven defender win within three replies/plies after the attack move.",
+  "total_points": {
+    "frozen": 29,
+    "trained": 29
+  }
+}

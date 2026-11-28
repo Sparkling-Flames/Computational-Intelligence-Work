@@ -1,0 +1,280 @@
+{
+  "old": {
+    "kurz": {
+      "pairs": 4,
+      "dynamic": 8,
+      "trained": 8,
+      "better_equal_worse": [
+        0,
+        4,
+        0
+      ]
+    },
+    "PUCT": {
+      "pairs": 4,
+      "dynamic": 8,
+      "trained": 5,
+      "better_equal_worse": [
+        2,
+        2,
+        0
+      ]
+    },
+    "easyAI": {
+      "pairs": 4,
+      "dynamic": 8,
+      "trained": 8,
+      "better_equal_worse": [
+        0,
+        4,
+        0
+      ]
+    },
+    "tLut-search": {
+      "pairs": 4,
+      "dynamic": 8,
+      "trained": 8,
+      "better_equal_worse": [
+        0,
+        4,
+        0
+      ]
+    },
+    "tLut-greedy": {
+      "pairs": 4,
+      "dynamic": 6,
+      "trained": 8,
+      "better_equal_worse": [
+        0,
+        3,
+        1
+      ]
+    },
+    "UCT": {
+      "pairs": 4,
+      "dynamic": 8,
+      "trained": 8,
+      "better_equal_worse": [
+        0,
+        4,
+        0
+      ]
+    },
+    "randytli": {
+      "pairs": 4,
+      "dynamic": 8,
+      "trained": 8,
+      "better_equal_worse": [
+        0,
+        4,
+        0
+      ]
+    },
+    "trained-defense": {
+      "pairs": 2,
+      "dynamic": 0,
+      "trained": 1,
+      "better_equal_worse": [
+        0,
+        1,
+        1
+      ]
+    },
+    "total": {
+      "pairs": 30,
+      "dynamic": 54,
+      "trained": 54,
+      "better_equal_worse": [
+        2,
+        26,
+        2
+      ]
+    }
+  },
+  "new": {
+    "kurz": {
+      "pairs": 4,
+      "dynamic": 8,
+      "trained": 8,
+      "better_equal_worse": [
+        0,
+        4,
+        0
+      ]
+    },
+    "PUCT": {
+      "pairs": 4,
+      "dynamic": 6,
+      "trained": 4,
+      "better_equal_worse": [
+        1,
+        3,
+        0
+      ]
+    },
+    "easyAI": {
+      "pairs": 4,
+      "dynamic": 8,
+      "trained": 4,
+      "better_equal_worse": [
+        2,
+        2,
+        0
+      ]
+    },
+    "tLut-search": {
+      "pairs": 4,
+      "dynamic": 6,
+      "trained": 6,
+      "better_equal_worse": [
+        1,
+        1,
+        2
+      ]
+    },
+    "tLut-greedy": {
+      "pairs": 4,
+      "dynamic": 8,
+      "trained": 8,
+      "better_equal_worse": [
+        0,
+        4,
+        0
+      ]
+    },
+    "UCT": {
+      "pairs": 4,
+      "dynamic": 8,
+      "trained": 8,
+      "better_equal_worse": [
+        0,
+        4,
+        0
+      ]
+    },
+    "randytli": {
+      "pairs": 4,
+      "dynamic": 8,
+      "trained": 8,
+      "better_equal_worse": [
+        0,
+        4,
+        0
+      ]
+    },
+    "trained-defense": {
+      "pairs": 4,
+      "dynamic": 2,
+      "trained": 4,
+      "better_equal_worse": [
+        0,
+        3,
+        1
+      ]
+    },
+    "total": {
+      "pairs": 32,
+      "dynamic": 54,
+      "trained": 50,
+      "better_equal_worse": [
+        4,
+        25,
+        3
+      ]
+    }
+  },
+  "combined": {
+    "kurz": {
+      "pairs": 8,
+      "dynamic": 16,
+      "trained": 16,
+      "better_equal_worse": [
+        0,
+        8,
+        0
+      ]
+    },
+    "PUCT": {
+      "pairs": 8,
+      "dynamic": 14,
+      "trained": 9,
+      "better_equal_worse": [
+        3,
+        5,
+        0
+      ]
+    },
+    "easyAI": {
+      "pairs": 8,
+      "dynamic": 16,
+      "trained": 12,
+      "better_equal_worse": [
+        2,
+        6,
+        0
+      ]
+    },
+    "tLut-search": {
+      "pairs": 8,
+      "dynamic": 14,
+      "trained": 14,
+      "better_equal_worse": [
+        1,
+        5,
+        2
+      ]
+    },
+    "tLut-greedy": {
+      "pairs": 8,
+      "dynamic": 14,
+      "trained": 16,
+      "better_equal_worse": [
+        0,
+        7,
+        1
+      ]
+    },
+    "UCT": {
+      "pairs": 8,
+      "dynamic": 16,
+      "trained": 16,
+      "better_equal_worse": [
+        0,
+        8,
+        0
+      ]
+    },
+    "randytli": {
+      "pairs": 8,
+      "dynamic": 16,
+      "trained": 16,
+      "better_equal_worse": [
+        0,
+        8,
+        0
+      ]
+    },
+    "trained-defense": {
+      "pairs": 6,
+      "dynamic": 2,
+      "trained": 5,
+      "better_equal_worse": [
+        0,
+        4,
+        2
+      ]
+    },
+    "total": {
+      "pairs": 62,
+      "dynamic": 108,
+      "trained": 104,
+      "better_equal_worse": [
+        6,
+        51,
+        5
+      ]
+    }
+  },
+  "old_common_defense": 23,
+  "technical": []
+}

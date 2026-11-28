@@ -1,0 +1,233 @@
+{
+  "seeds": [
+    13401,
+    13402,
+    13403,
+    13404,
+    13405,
+    13406,
+    13407,
+    13408
+  ],
+  "workers": 8,
+  "scores": {
+    "kurz fixed": {
+      "wdl": [
+        3,
+        0,
+        5
+      ],
+      "points": 6,
+      "attack_plies": 352,
+      "avoidable_losses": 5,
+      "games_with_miss": 5
+    },
+    "kurz dynamic": {
+      "wdl": [
+        7,
+        0,
+        1
+      ],
+      "points": 14,
+      "attack_plies": 285,
+      "avoidable_losses": 1,
+      "games_with_miss": 1,
+      "witness_found": 3
+    },
+    "PUCT fixed": {
+      "wdl": [
+        3,
+        2,
+        3
+      ],
+      "points": 8,
+      "attack_plies": 242,
+      "avoidable_losses": 2,
+      "games_with_miss": 2
+    },
+    "PUCT dynamic": {
+      "wdl": [
+        5,
+        2,
+        1
+      ],
+      "points": 12,
+      "attack_plies": 279,
+      "avoidable_losses": 0,
+      "games_with_miss": 0
+    }
+  },
+  "paired": {
+    "kurz": [
+      4,
+      4,
+      0
+    ],
+    "PUCT": [
+      4,
+      3,
+      1
+    ]
+  },
+  "events": {
+    "kurz": {
+      "no_refutation": 266,
+      "out_of_time": 2,
+      "changed": 1
+    },
+    "PUCT": {
+      "no_refutation": 264,
+      "out_of_time": 1,
+      "tree_proof": 2,
+      "clear": 2
+    }
+  },
+  "changes": [
+    {
+      "opponent": "kurz",
+      "seed": 13405,
+      "ply": 27,
+      "fixed": [
+        41,
+        23
+      ],
+      "dynamic": [
+        65,
+        64
+      ],
+      "line": [
+        [
+          39,
+          30
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          30,
+          3
+        ]
+      ],
+      "depth": 3,
+      "winner": "A",
+      "paired_fixed_same_prefix": false,
+      "paired_fixed_move": null
+    }
+  ],
+  "misses": [
+    {
+      "opponent": "kurz",
+      "seed": 13401,
+      "ply": 109,
+      "version": "fixed",
+      "depth": 3,
+      "move": [
+        48,
+        47
+      ],
+      "review_status": null,
+      "new_visits": 69,
+      "inherited": 12
+    },
+    {
+      "opponent": "kurz",
+      "seed": 13402,
+      "ply": 107,
+      "version": "fixed",
+      "depth": 3,
+      "move": [
+        8,
+        17
+      ],
+      "review_status": null,
+      "new_visits": 143,
+      "inherited": 0
+    },
+    {
+      "opponent": "kurz",
+      "seed": 13404,
+      "ply": 139,
+      "version": "fixed",
+      "depth": 1,
+      "move": [
+        6,
+        5
+      ],
+      "review_status": null,
+      "new_visits": 0,
+      "inherited": 0
+    },
+    {
+      "opponent": "kurz",
+      "seed": 13406,
+      "ply": 65,
+      "version": "fixed",
+      "depth": 3,
+      "move": [
+        22,
+        49
+      ],
+      "review_status": null,
+      "new_visits": 2406,
+      "inherited": 731
+    },
+    {
+      "opponent": "kurz",
+      "seed": 13407,
+      "ply": 129,
+      "version": "fixed",
+      "depth": 1,
+      "move": [
+        58,
+        49
+      ],
+      "review_status": null,
+      "new_visits": 78,
+      "inherited": 0
+    },
+    {
+      "opponent": "kurz",
+      "seed": 13402,
+      "ply": 119,
+      "version": "dynamic",
+      "depth": 3,
+      "move": [
+        38,
+        29
+      ],
+      "review_status": "out_of_time",
+      "new_visits": 76,
+      "inherited": 0
+    },
+    {
+      "opponent": "PUCT",
+      "seed": 13402,
+      "ply": 47,
+      "version": "fixed",
+      "depth": 3,
+      "move": [
+        58,
+        62
+      ],
+      "review_status": null,
+      "new_visits": 2125,
+      "inherited": 2418
+    },
+    {
+      "opponent": "PUCT",
+      "seed": 13404,
+      "ply": 53,
+      "version": "fixed",
+      "depth": 3,
+      "move": [
+        52,
+        51
+      ],
+      "review_status": null,
+      "new_visits": 4878,
+      "inherited": 1589
+    }
+  ],
+  "technical": []
+}

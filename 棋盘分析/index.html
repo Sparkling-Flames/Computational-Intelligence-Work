@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tablut · 对局研究室</title><link rel="stylesheet" href="board.css"></head>
+<body><main><header><div class="identity"><span class="mark" aria-hidden="true">♜</span><h1>Tablut</h1><span class="subtitle">对局研究室</span></div><span class="local">本地分析台</span></header>
+<div class="toolbar"><label>棋谱<select id="scenario"></select></label><label>计时方式<select id="mode"><option value="study">复盘 · 每手 60 秒</option><option value="auto">自动对弈 · 每手 60 秒</option><option value="match">正式对弈 · 每方整局 60 秒</option></select></label></div>
+<div class="layout"><section class="panel"><div class="sectiontitle"><h2 id="turn"></h2><div id="clocks"></div></div>
+<div class="boardwrap"><div class="xticks"></div><div class="yticks"></div><div class="board" id="board"></div></div>
+<div class="legend"><span><i class="dot A"></i>攻子</span><span><i class="dot D"></i>守卫</span><span><i class="dot K"></i>国王</span><span>落点标出排名与样本胜率</span></div>
+<div class="actions"><button id="back">← 上一手</button><button id="next">下一手 →</button><button id="reset">重置棋谱</button></div>
+<label class="scrub">浏览棋谱 <input type="range" id="scrubber" min="0" value="0"><output id="position"></output></label>
+<div id="keys" class="keys"></div><p class="muted" id="lengthEstimate"></p><p class="muted" id="hint"></p><div class="note"><strong id="caseTitle"></strong><span id="caseText"></span></div><details><summary>完整棋谱</summary><div id="record"></div></details></section>
+<section class="panel analysis"><div class="sectiontitle"><h2>实时分析</h2><span id="perspective" class="tag"></span></div>
+<div class="actions"><button class="primary" id="run">分析本手</button><button id="stop">停止</button><button id="apply">采用候选</button></div>
+<div class="meta"><span id="status" role="status"></span><div id="metrics"></div></div>
+<div class="sectiontitle"><h3>候选前五</h3><label class="check"><input id="wideRoot" type="checkbox" checked>复盘宽搜</label><label class="check"><input id="showAll" type="checkbox">列出全部</label></div>
+<div class="tablewrap"><table><thead><tr><th>排名 / 着法</th><th>样本胜率</th><th>访问 / 占比</th><th>近段访问/s</th><th>已证</th></tr></thead><tbody id="rows"></tbody></table></div>
+<section id="comparison" hidden><div class="sectiontitle"><h3>同局面 · Python 三引擎</h3></div><div class="tablewrap"><table><thead><tr><th>引擎 / 选着</th><th>用时</th><th>节点 / 访问</th><th>深度</th></tr></thead><tbody id="compareRows"></tbody></table></div></section><div class="sectiontitle"><h3>候选变化</h3><span id="choice" class="muted"></span></div>
+<p id="evidence" class="note"></p><p id="line"></p><h3>对手应对</h3><p id="replyCoverage" class="muted"></p><div class="tablewrap"><table><thead><tr><th>对手可走</th><th>对手样本胜率</th><th>访问</th><th>我方后续示例</th></tr></thead><tbody id="replies"></tbody></table></div><canvas class="trend" id="trend" aria-label="所选候选样本胜率随时间变化"></canvas><span id="trendLabel" class="muted"></span>
+
+<details><summary>如何读数与计时</summary><p>浏览器对局采用 PUCT 和模拟对弈。样本胜率 = 胜 / 访问，得分率 =（胜 + 0.5 × 和）/ 访问。样本是搜索回传的结果，包括已证子树；这些比例未经真实对手校准。零访问显示「—」，已证明的结果独立标明。复盘宽搜每三次根访问拨一次复查当前有竞争力且探索不足的候选；另外两次使用常规 PUCT。紧接着的对手层每六次拨一次作相同复核。取消勾选并重新分析可对照。近段访问/s 按同一着法在最近两次搜索报告之间的访问增量计算。初始先验影响探索顺序，主要变化取自当前搜索树。</p><p>复盘和逐手自动模式每手计算 60 秒；若所有候选都已证明，可提前结束。即便已经发现必胜着，未解候选仍会继续搜索。正式对弈从标准开局开始，每方整局累计 60 秒，无读秒。正式模式用历史对局中仍存续的样本估计余手，长局样本少时保留余量。国王已离开城堡附近、守卫可能让出通道时增加预算；已证局面可提前落子。树达到 25 万节点后继续在已有树上抽样。</p><p>「继承」显示此前沿实战走法已经算过的访问次数。采用候选后，可以在棋盘上走出表中任一对手应对，再点「分析本手」查看。正式对弈中攻守各自保留搜索树，每方按自己上一手的搜索速度折算继承量，从第 15 手起且预计己方还要走至少 5 手时，普通局面预算乘以 1.45，继承访问最多抵扣 20%；其余阶段最多抵扣 50%。</p><p>正式对弈会在本手预算约 45% 和 80% 时观察前三名。访问至少 20 次、预计得分率距首选 5 个百分点以内的候选可触发加时。排序稳定且估值变化小时，追加 15%；首选易位或估值变化至少 2 个百分点时，追加 45%。每手至多使用可用余时的四分之一。</p></details>
+</section></div></main><script src="engine.js"></script><script src="loss-data.js"></script><script src="clock-data.js"></script><script src="trap-review.js"></script><script src="clock-review.js"></script><script src="comparison.js"></script><script src="generation2-games.js"></script><script src="attack-trials.js"></script><script src="attack-series.js"></script><script src="open-field.js"></script><script src="native-field.js"></script><script src="refutation-field.js"></script><script src="board.js"></script></body></html>
+
+
+
+
+

@@ -1,0 +1,430 @@
+{
+  "scores": {
+    "gen2": {
+      "easyAI_new": {
+        "D": 3,
+        "A": 1
+      },
+      "PUCT_new": {
+        "D": 1,
+        "A": 1
+      },
+      "easyAI_repeat": {
+        "D": 2
+      }
+    },
+    "frozen": {
+      "easyAI_new": {
+        "D": 2,
+        "A": 2
+      },
+      "PUCT_new": {
+        "D": 1,
+        "A": 1
+      },
+      "easyAI_repeat": {
+        "A": 2
+      }
+    },
+    "finish": {
+      "easyAI_new": {
+        "A": 2,
+        "D": 2
+      },
+      "PUCT_new": {
+        "D": 2
+      },
+      "easyAI_repeat": {
+        "A": 2
+      }
+    },
+    "hook": {
+      "easyAI_new": {
+        "D": 3,
+        "A": 1
+      },
+      "PUCT_new": {
+        "D": 1,
+        "=": 1
+      },
+      "easyAI_repeat": {
+        "A": 1,
+        "D": 1
+      }
+    },
+    "trained": {
+      "easyAI_new": {
+        "A": 4
+      },
+      "PUCT_new": {
+        "=": 1,
+        "D": 1
+      },
+      "easyAI_repeat": {
+        "A": 2
+      }
+    }
+  },
+  "events": {
+    "gen2": {
+      "choices": {},
+      "found": 0,
+      "rejected": 0,
+      "time_limited": 0
+    },
+    "frozen": {
+      "choices": {},
+      "found": 0,
+      "rejected": 0,
+      "time_limited": 0
+    },
+    "finish": {
+      "choices": {
+        "fallback": 254,
+        "forced_three": 1
+      },
+      "found": 0,
+      "rejected": 0,
+      "time_limited": 0
+    },
+    "hook": {
+      "choices": {
+        "fallback": 248,
+        "forced_three": 1
+      },
+      "found": 4,
+      "rejected": 4,
+      "time_limited": 0
+    },
+    "trained": {
+      "choices": {
+        "fallback": 279,
+        "forced_three": 2
+      },
+      "found": 0,
+      "rejected": 0,
+      "time_limited": 0
+    }
+  },
+  "timed_repeats": {
+    "gen2": {
+      "first_different_ply": 63,
+      "outcomes": [
+        "D",
+        "D"
+      ]
+    },
+    "frozen": {
+      "first_different_ply": 7,
+      "outcomes": [
+        "A",
+        "A"
+      ]
+    },
+    "finish": {
+      "first_different_ply": 1,
+      "outcomes": [
+        "A",
+        "A"
+      ]
+    },
+    "hook": {
+      "first_different_ply": 19,
+      "outcomes": [
+        "A",
+        "D"
+      ]
+    },
+    "trained": {
+      "first_different_ply": 5,
+      "outcomes": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "paired": {
+    "frozen": {
+      "against": "gen2",
+      "better": 1,
+      "equal": 5,
+      "worse": 0,
+      "points": 2
+    },
+    "finish": {
+      "against": "frozen",
+      "better": 1,
+      "equal": 3,
+      "worse": 2,
+      "points": -2
+    },
+    "hook": {
+      "against": "finish",
+      "better": 1,
+      "equal": 4,
+      "worse": 1,
+      "points": -1
+    },
+    "trained": {
+      "against": "finish",
+      "better": 3,
+      "equal": 3,
+      "worse": 0,
+      "points": 5
+    }
+  },
+  "offers": {
+    "positions": 10,
+    "proven": 0,
+    "unknown": 0,
+    "avoidable_short_losses": 5,
+    "random_mean_bite": 0.031104390801369536,
+    "greedy_mean_bite": 0.7,
+    "ab_bites": 0,
+    "ab_one_second_bites": 0,
+    "ab_one_second_punishments": 5,
+    "puct_bites": {
+      "40": 0,
+      "640": 0
+    }
+  },
+  "historical_offer": {
+    "legal": 53,
+    "bites": [
+      [
+        41,
+        50
+      ]
+    ],
+    "greedy_bite": 1.0,
+    "win_within_five": true,
+    "defender_can_force_three": false,
+    "ab": {
+      "move": [
+        41,
+        42
+      ],
+      "bite": false,
+      "allows_capture": false
+    },
+    "ab_one_second": {
+      "move": [
+        41,
+        42
+      ],
+      "bite": false,
+      "depth": 3,
+      "forces_win_within_three": false
+    },
+    "40": [
+      {
+        "seed": 61,
+        "move": [
+          33,
+          32
+        ],
+        "bite": false,
+        "allows_capture": true
+      },
+      {
+        "seed": 62,
+        "move": [
+          33,
+          32
+        ],
+        "bite": false,
+        "allows_capture": true
+      },
+      {
+        "seed": 63,
+        "move": [
+          33,
+          32
+        ],
+        "bite": false,
+        "allows_capture": true
+      },
+      {
+        "seed": 64,
+        "move": [
+          33,
+          32
+        ],
+        "bite": false,
+        "allows_capture": true
+      }
+    ],
+    "640": [
+      {
+        "seed": 61,
+        "move": [
+          41,
+          42
+        ],
+        "bite": false,
+        "allows_capture": false
+      },
+      {
+        "seed": 62,
+        "move": [
+          41,
+          42
+        ],
+        "bite": false,
+        "allows_capture": false
+      },
+      {
+        "seed": 63,
+        "move": [
+          41,
+          42
+        ],
+        "bite": false,
+        "allows_capture": false
+      },
+      {
+        "seed": 64,
+        "move": [
+          41,
+          42
+        ],
+        "bite": false,
+        "allows_capture": false
+      }
+    ]
+  },
+  "historical_probes_1600_cold": {
+    "frozen": {
+      "bait": {
+        "move": [
+          49,
+          51
+        ],
+        "ok": true
+      },
+      "continue": {
+        "move": [
+          35,
+          34
+        ],
+        "ok": true
+      },
+      "defend": {
+        "move": [
+          4,
+          2
+        ],
+        "ok": false
+      },
+      "hard_reply": {
+        "move": [
+          34,
+          31
+        ],
+        "ok": true
+      }
+    },
+    "finish": {
+      "bait": {
+        "move": [
+          49,
+          51
+        ],
+        "ok": true
+      },
+      "continue": {
+        "move": [
+          35,
+          34
+        ],
+        "ok": true
+      },
+      "defend": {
+        "move": [
+          4,
+          2
+        ],
+        "ok": false
+      },
+      "hard_reply": {
+        "move": [
+          34,
+          31
+        ],
+        "ok": true
+      }
+    },
+    "hook": {
+      "bait": {
+        "move": [
+          49,
+          51
+        ],
+        "ok": true
+      },
+      "continue": {
+        "move": [
+          35,
+          34
+        ],
+        "ok": true
+      },
+      "defend": {
+        "move": [
+          4,
+          2
+        ],
+        "ok": false
+      },
+      "hard_reply": {
+        "move": [
+          34,
+          31
+        ],
+        "ok": true
+      }
+    },
+    "trained": {
+      "bait": {
+        "move": [
+          49,
+          51
+        ],
+        "ok": true
+      },
+      "continue": {
+        "move": [
+          35,
+          34
+        ],
+        "ok": true
+      },
+      "defend": {
+        "move": [
+          4,
+          2
+        ],
+        "ok": false
+      },
+      "hard_reply": {
+        "move": [
+          34,
+          31
+        ],
+        "ok": true
+      }
+    }
+  },
+  "fixed_work": {
+    "identical_pairs": 4,
+    "unique_lines": 4,
+    "different_seed_divergence": [
+      1,
+      1,
+      1,
+      1,
+      19,
+      1
+    ]
+  }
+}

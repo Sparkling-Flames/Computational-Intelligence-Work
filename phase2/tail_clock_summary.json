@@ -1,0 +1,35 @@
+{
+  "kurz empirical": {
+    "A": 6,
+    "points": 12,
+    "long_games": 4,
+    "early_moves": 275,
+    "D": 2,
+    "late_moves": 111,
+    "late_misses": 1
+  },
+  "kurz original": {
+    "A": 6,
+    "points": 12,
+    "long_games": 4,
+    "early_moves": 277,
+    "D": 2,
+    "late_moves": 81,
+    "late_misses": 2
+  },
+  "RouteAB original": {
+    "A": 6,
+    "points": 12,
+    "long_games": 1,
+    "early_moves": 179,
+    "late_moves": 9,
+    "D": 2
+  },
+  "RouteAB empirical": {
+    "A": 5,
+    "points": 10,
+    "long_games": 0,
+    "early_moves": 184,
+    "D": 3
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "python": "3.12.14",
+  "variant": "PUCTPlayer",
+  "seed": 11,
+  "ply": 65,
+  "safe_example": [
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      2
+    ]
+  ],
+  "runs": [
+    {
+      "budget": 0.88,
+      "seconds": 0.88932,
+      "move": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "forced_defender_win_within_7": true,
+      "visits": 7989,
+      "move_visits": 595,
+      "depth": 5,
+      "safe_example_rank": 37,
+      "safe_example_visits": 53
+    },
+    {
+      "budget": 2.0,
+      "seconds": 2.01907,
+      "move": [
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "forced_defender_win_within_7": false,
+      "visits": 16071,
+      "move_visits": 5302,
+      "depth": 7,
+      "safe_example_rank": 1,
+      "safe_example_visits": 5302
+    },
+    {
+      "budget": 4.0,
+      "seconds": 4.03338,
+      "move": [
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "forced_defender_win_within_7": false,
+      "visits": 31631,
+      "move_visits": 15275,
+      "depth": 11,
+      "safe_example_rank": 1,
+      "safe_example_visits": 15275
+    },
+    {
+      "budget": 8.0,
+      "seconds": 8.06385,
+      "move": [
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "forced_defender_win_within_7": false,
+      "visits": 60858,
+      "move_visits": 28096,
+      "depth": 13,
+      "safe_example_rank": 1,
+      "safe_example_visits": 28096
+    }
+  ]
+}
